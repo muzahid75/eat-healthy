@@ -138,3 +138,40 @@ img.project-cover {
     margin-top: 20px;
     color: rgb(24, 25, 31);
 }
+.subscribe{
+    margin: 0px auto 50px auto;
+  width: 80%;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-title{
+    font-size: 48px;
+    color: rgb(24, 25, 31);
+}
+.sub-paragraph{
+    font-size: 16px;
+    color: rgb(24, 25, 31);
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
+span.footer-span{
+    color:rgb(251, 162, 79)
+}
+.footer-title{
+    color:rgb(91, 91, 91);
+    margin-bottom: 20px;
+}
+.footer-paragraph{
+    color: white;
+}
